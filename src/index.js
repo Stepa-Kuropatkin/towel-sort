@@ -1,6 +1,6 @@
 module.exports = function towelSort(matrix) {
     let arr = [];
-    if (matrix != null && !!matrix.length) {
+    if (matrix != null) {
         for (let i = 0; i < matrix.length; i++) {
             if (i % 2 == 0) {
                 for (let e of matrix[i]) {
